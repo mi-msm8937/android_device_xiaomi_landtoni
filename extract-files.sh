@@ -46,6 +46,8 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "libandroid.so" "libshims_android.so" "${2}"
             ;;
         vendor/bin/gx_fpcmd|vendor/bin/gx_fpd)
+            patchelf --remove-needed "libbacktrace.so" "${2}"
+            patchelf --remove-needed "libunwind.so" "${2}"
             "${PATCHELF}" --print-needed "${2}"|grep "liblog.so">/dev/null
             if [ $? -ne 0 ]; then
                 patchelf --add-needed "liblog.so" "${2}"
