@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.land \
+    camera.santoni \
     libLmcamera_interface \
     libLmjpeg_interface \
     libLmlib2d_interface \

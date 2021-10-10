@@ -17,3 +17,7 @@ on property:ro.vendor.xiaomi.device=santoni
 on property:ro.vendor.xiaomi.device=land
     setprop ro.hardware.camera land
     restart vendor.camera-provider-2-4
+
+on property:ro.vendor.xiaomi.device=santoni
+    setprop ro.hardware.camera santoni
+    restart vendor.camera-provider-2-4
