@@ -5,7 +5,7 @@
 #
 
 # Device
-DEVICE := land
+DEVICE := landtoni
 
 # Inherit from landtoni-common
 $(call inherit-product, device/xiaomi/landtoni-common/landtoni.mk)
@@ -36,4 +36,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/land/land-vendor.mk)
+$(call inherit-product, vendor/xiaomi/landtoni/landtoni-vendor.mk)

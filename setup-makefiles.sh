@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=land
+export DEVICE=landtoni
 export DEVICE_SPECIFIED_COMMON=landtoni-common
 export VENDOR=xiaomi
 
