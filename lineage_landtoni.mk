@@ -12,15 +12,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from land device
-$(call inherit-product, device/xiaomi/land/device.mk)
+# Inherit from landtoni device
+$(call inherit-product, device/xiaomi/landtoni/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := land
-PRODUCT_NAME := lineage_land
+PRODUCT_DEVICE := landtoni
+PRODUCT_NAME := lineage_landtoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 3S / 3X
+PRODUCT_MODEL := Redmi 3S / 3X / 4X
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 

@@ -7,15 +7,18 @@
 # Inherit from common landtoni-common
 include device/xiaomi/landtoni-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/land
+DEVICE_PATH := device/xiaomi/landtoni
+
+# Asserts
+TARGET_OTA_ASSERT_DEVICE := landtoni,land,santoni
 
 # Camera
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /vendor/bin/mm-qcamera-daemon=23
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_land
-TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_land
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_landtoni
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_landtoni
 
 # Kernel
 TARGET_KERNEL_CONFIG := mi8937_defconfig
@@ -30,4 +33,4 @@ VENDOR_SECURITY_PATCH := 2017-04-01
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from the proprietary version
-include vendor/xiaomi/land/BoardConfigVendor.mk
+include vendor/xiaomi/landtoni/BoardConfigVendor.mk
