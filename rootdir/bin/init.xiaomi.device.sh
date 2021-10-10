@@ -1,6 +1,14 @@
 #!/vendor/bin/sh
 
 if grep S88537 /proc/cmdline ; then
+	# Camera
+	setprop camera.lowpower.record.enable 0
+	setprop persist.camera.gyro.android 0
+	setprop persist.camera.gyro.disable 1
+	setprop persist.camera.is_type 1
+	setprop persist.ts.rtmakeup true
+	setprop media.camera.ts.monotonic 1
+
 	# land
 	setprop ro.vendor.xiaomi.device land
 
