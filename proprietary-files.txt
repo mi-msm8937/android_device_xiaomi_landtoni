@@ -1,34 +1,34 @@
 # land Package version: land-user 6.0.1 MMB29M V10.2.2.0.MALMIXM release-keys
 
 # ACDB - from land
-etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Bluetooth_cal.acdb
-etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_General_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_General_cal.acdb
-etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Global_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Global_cal.acdb
-etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Handset_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Handset_cal.acdb
-etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb
-etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb
-etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Bluetooth_cal.acdb
+vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_General_cal.acdb
+vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Global_cal.acdb
+vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Handset_cal.acdb
+vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb
+vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb
+vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
 
 # Camera modules - from land
-etc/camera/msm8937_camera.xml:vendor/etc/camera/msm8937_camera.xml
-etc/camera/ofilm_s5k5e8_chromatix.xml:vendor/etc/camera/ofilm_s5k5e8_chromatix.xml
-etc/camera/ov13853_q13853a_chromatix.xml:vendor/etc/camera/ov13853_q13853a_chromatix.xml
-etc/camera/ov5670_f5670bq_chromatix.xml:vendor/etc/camera/ov5670_f5670bq_chromatix.xml
-etc/camera/plus_ov5670_f5670bq_chromatix.xml:vendor/etc/camera/plus_ov5670_f5670bq_chromatix.xml
-etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml:vendor/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml
-etc/camera/s5k3l8_f3l8yam_chromatix.xml:vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml
-etc/camera/s5k3l8_f3l8yam_new_chromatix.xml:vendor/etc/camera/s5k3l8_f3l8yam_new_chromatix.xml
-etc/camera/s5k5e8_chromatix.xml:vendor/etc/camera/s5k5e8_chromatix.xml
-etc/camera/sunny_ov5670_f5670bq_chromatix.xml:vendor/etc/camera/sunny_ov5670_f5670bq_chromatix.xml
-etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:vendor/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml
-etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml:vendor/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml
+vendor/etc/camera/msm8937_camera.xml
+vendor/etc/camera/ofilm_s5k5e8_chromatix.xml
+vendor/etc/camera/ov13853_q13853a_chromatix.xml
+vendor/etc/camera/ov5670_f5670bq_chromatix.xml
+vendor/etc/camera/plus_ov5670_f5670bq_chromatix.xml
+vendor/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml
+vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml
+vendor/etc/camera/s5k3l8_f3l8yam_new_chromatix.xml
+vendor/etc/camera/s5k5e8_chromatix.xml
+vendor/etc/camera/sunny_ov5670_f5670bq_chromatix.xml
+vendor/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml
+vendor/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml
 vendor/lib/libactuator_bu64244gwz.so
 vendor/lib/libactuator_dw9718s.so
 vendor/lib/libactuator_dw9763_ov13853.so
@@ -264,7 +264,7 @@ vendor/lib/libmmcamera_s5k5e8_eeprom.so
 vendor/lib/libmmcamera_s5k5e8.so
 
 # Camera stack - from land
-bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
+vendor/bin/mm-qcamera-daemon
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
@@ -360,16 +360,16 @@ vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 
 # Display calibration - from land
-etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml:vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml|eae73d5892ed83fc832d40eb3c74945e0e63c1a4
-etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml:vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml|2ead0723616a9c30281bbd930206edf68fd79421
-etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml:vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml|7e9197eea621ff4661c8216a6b536e88a0488bfa
+vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml|eae73d5892ed83fc832d40eb3c74945e0e63c1a4
+vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml|2ead0723616a9c30281bbd930206edf68fd79421
+vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml|7e9197eea621ff4661c8216a6b536e88a0488bfa
 
 # Fingerprint - from land
-bin/gx_fpcmd:vendor/bin/gx_fpcmd
-bin/gx_fpd:vendor/bin/gx_fpd
-lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so
-lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so
-lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
-lib64/libfp_client.so:vendor/lib64/libfp_client.so|1300e5d4c25504eb29f27e8d3467eaa0825acbef
-lib64/libfpnav.so:vendor/lib64/libfpnav.so
-lib64/libfpservice.so:vendor/lib64/libfpservice.so|beca82a4f50b6fcb7959c6171f2d509bd5c6b5d0
+vendor/bin/gx_fpcmd
+vendor/bin/gx_fpd
+vendor/lib64/hw/fingerprint.fpc.so
+vendor/lib64/hw/fingerprint.goodix.so
+vendor/lib64/hw/gxfingerprint.default.so
+vendor/lib64/libfp_client.so|1300e5d4c25504eb29f27e8d3467eaa0825acbef
+vendor/lib64/libfpnav.so
+vendor/lib64/libfpservice.so|beca82a4f50b6fcb7959c6171f2d509bd5c6b5d0
