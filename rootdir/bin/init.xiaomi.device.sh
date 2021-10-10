@@ -1,8 +1,20 @@
 #!/vendor/bin/sh
 
-if grep -E "S88537AC1|S88537EC1" /proc/cmdline > /dev/null; then
-	setprop ro.vendor.fingerprint.supported 0
-else
+if grep S88537 /proc/cmdline > /dev/null; then
+	# land
+	setprop ro.vendor.xiaomi.device land
+
+	# Fingerprint
+	if grep -E "S88537AC1|S88537EC1" /proc/cmdline ; then
+		setprop ro.vendor.fingerprint.supported 0
+	else
+		setprop ro.vendor.fingerprint.supported 1
+	fi
+elif grep S88536 /proc/cmdline > /dev/null; then
+	# santoni
+	setprop ro.vendor.xiaomi.device santoni
+
+	# Fingerprint
 	setprop ro.vendor.fingerprint.supported 1
 fi
 
