@@ -3,3 +3,8 @@ service vendor.xiaomi_device_script /vendor/bin/init.xiaomi.device.sh
     user root
     group root
     oneshot
+
+# Audio
+on property:ro.vendor.xiaomi.device=land
+    mount none /vendor/etc/land_mixer_paths_qrd_sku1.xml /vendor/etc/mixer_paths_qrd_sku1.xml bind
+    restart vendor.audio-hal
