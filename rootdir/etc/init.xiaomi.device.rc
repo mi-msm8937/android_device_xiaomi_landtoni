@@ -11,10 +11,18 @@ on property:ro.vendor.xiaomi.device=land
 
 on property:ro.vendor.xiaomi.device=santoni
     mount none /vendor/etc/santoni_mixer_paths_qrd_sku1.xml /vendor/etc/mixer_paths_qrd_sku1.xml bind
+    mount none /vendor/etc/santoni_acdbdata /vendor/etc/acdbdata bind
     restart vendor.audio-hal
 
 # Camera
 service land_qcamerasvr /system/vendor/bin/land_mm-qcamera-daemon
+    disabled
+    class late_start
+    user camera
+    group camera system inet input graphics
+    writepid /dev/cpuset/system-background/tasks
+
+service santoni_qcamerasvr /system/vendor/bin/santoni_mm-qcamera-daemon
     disabled
     class late_start
     user camera
@@ -29,10 +37,18 @@ on property:ro.vendor.xiaomi.device=land
 
 on property:ro.vendor.xiaomi.device=santoni
     setprop ro.hardware.camera santoni
+    stop qcamerasvr
+    enable santoni_qcamerasvr
     restart vendor.camera-provider-2-4
 
 # Fingerprint
 service vendor.land_gx_fpd /vendor/bin/land_gx_fpd
+    class main
+    user system
+    group system
+    disabled
+
+service vendor.santoni_gx_fpd /vendor/bin/santoni_gx_fpd
     class main
     user system
     group system
