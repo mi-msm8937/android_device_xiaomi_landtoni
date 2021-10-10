@@ -16,7 +16,7 @@ if grep S88537 /proc/cmdline ; then
 	if grep -E "S88537AC1|S88537EC1" /proc/cmdline ; then
 		setprop ro.vendor.fingerprint.supported 0
 	else
-		setprop ro.vendor.fingerprint.supported 1
+		setprop ro.vendor.fingerprint.supported 2
 	fi
 elif grep S88536 /proc/cmdline ; then
 	# santoni
@@ -24,7 +24,7 @@ elif grep S88536 /proc/cmdline ; then
 
 	# Fingerprint
 	setprop vendor.fingerprint.goodix.disable_notify_cancel_hack 1
-	setprop ro.vendor.fingerprint.supported 1
+	setprop ro.vendor.fingerprint.supported 2
 fi
 
 exit 0

@@ -1,2 +1,5 @@
 # Camera
 /(vendor|system/vendor)/bin/[0-9a-z]+_mm-qcamera-daemon	u:object_r:mm-qcamerad_exec:s0
+
+# Goodix Fingerprint
+/(vendor|system/vendor)/bin/[0-9a-z]+_gx_fpd	u:object_r:gx_fpd_exec:s0
