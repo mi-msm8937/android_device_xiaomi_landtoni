@@ -1,6 +1,6 @@
-# All unpinned blobs below are extracted from land-user 6.0.1 MMB29M V10.2.2.0.MALMIXM release-keys
+# land Package version: land-user 6.0.1 MMB29M V10.2.2.0.MALMIXM release-keys
 
-# ACDB
+# ACDB - from land
 etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
 etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
 etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
@@ -16,7 +16,7 @@ etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb:vendor/etc/acdbdat
 etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb
 etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
 
-# Camera modules
+# Camera modules - from land
 etc/camera/msm8937_camera.xml:vendor/etc/camera/msm8937_camera.xml
 etc/camera/ofilm_s5k5e8_chromatix.xml:vendor/etc/camera/ofilm_s5k5e8_chromatix.xml
 etc/camera/ov13853_q13853a_chromatix.xml:vendor/etc/camera/ov13853_q13853a_chromatix.xml
@@ -263,7 +263,7 @@ vendor/lib/libmmcamera_s5k3l8.so
 vendor/lib/libmmcamera_s5k5e8_eeprom.so
 vendor/lib/libmmcamera_s5k5e8.so
 
-# Camera stack
+# Camera stack - from land
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
@@ -359,12 +359,12 @@ vendor/lib/libseemore.so
 vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 
-# Display calibration
+# Display calibration - from land
 etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml:vendor/etc/qdcm_calib_data_hx8394F_HD720p_video_BOE.xml|eae73d5892ed83fc832d40eb3c74945e0e63c1a4
 etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml:vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Tianma.xml|2ead0723616a9c30281bbd930206edf68fd79421
 etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml:vendor/etc/qdcm_calib_data_nt35521s_HD720p_video_EBBG.xml|7e9197eea621ff4661c8216a6b536e88a0488bfa
 
-# Fingerprint
+# Fingerprint - from land
 bin/gx_fpcmd:vendor/bin/gx_fpcmd
 bin/gx_fpd:vendor/bin/gx_fpd
 lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so
