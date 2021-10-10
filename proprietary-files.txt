@@ -1,20 +1,20 @@
 # land Package version: land-user 6.0.1 MMB29M V10.2.2.0.MALMIXM release-keys
 
 # ACDB - from land
-vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_General_cal.acdb
-vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Global_cal.acdb
-vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Handset_cal.acdb
-vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
+vendor/etc/land_acdbdata/QRD/QRD_Bluetooth_cal.acdb
+vendor/etc/land_acdbdata/QRD/QRD_General_cal.acdb
+vendor/etc/land_acdbdata/QRD/QRD_Global_cal.acdb
+vendor/etc/land_acdbdata/QRD/QRD_Handset_cal.acdb
+vendor/etc/land_acdbdata/QRD/QRD_Hdmi_cal.acdb
+vendor/etc/land_acdbdata/QRD/QRD_Headset_cal.acdb
+vendor/etc/land_acdbdata/QRD/QRD_Speaker_cal.acdb
+vendor/etc/land_acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Bluetooth_cal.acdb
+vendor/etc/land_acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_General_cal.acdb
+vendor/etc/land_acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Global_cal.acdb
+vendor/etc/land_acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Handset_cal.acdb
+vendor/etc/land_acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb
+vendor/etc/land_acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb
+vendor/etc/land_acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
 
 # Camera modules - from land
 vendor/etc/camera/msm8937_camera.xml
