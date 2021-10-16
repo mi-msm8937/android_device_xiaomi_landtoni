@@ -23,6 +23,7 @@ elif grep S88536 /proc/cmdline ; then
 	setprop ro.vendor.xiaomi.device santoni
 
 	# Fingerprint
+	setprop vendor.fingerprint.goodix.disable_notify_cancel_hack 1
 	setprop ro.vendor.fingerprint.supported 1
 fi
 
